@@ -1,0 +1,44 @@
+/* DEFAULT SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* violet section */
+.bk-ground-violet{
+    background-color: #BA55D3;
+    /* DEBUG */
+    min-height: 600px;
+    
+}
+
+/* section fot DEBUG */
+section{
+    /* DEBUG */
+    min-height: 600px;
+    border: 1px solid black;
+}
+
+
+
+
+
+/* FOOTER */
+footer{
+    background-color: rgb(32, 31, 31);
+    /* DEBUG */
+    min-height: 140px;
+}
+
+/* HEADER MENU */
+header nav{
+    background-color: #366ef0;
+    height: 70px;
+}
+
+header main{
+    /* DEBUG */
+    border: 2px solid black;
+    min-height: 600px;
+}
