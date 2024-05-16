@@ -92,6 +92,14 @@ header main{
     background-color: #fff;
 }
 
+.card.viol{
+    background-color: #9792E4;
+    color: #fff;
+}
+
+
+
+
 .card:first-child{
     /* DEBUG; */
     min-height: 400px;
@@ -138,6 +146,11 @@ button{
 /* MAIN MENU */
 .bk-ground-violet img{
     max-width: 100%;
+}
+
+.card.viol img{
+    max-width: 80%;
+    border-radius: 100%;
 }
 
 .violet-titol{
