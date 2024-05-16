@@ -3,17 +3,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: PT Sans;
+}
+
+.tx-middle{
+    text-align: center;
+}
+
+/* Default container */
+.container{
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* violet section */
 .bk-ground-violet{
-    background-color: #BA55D3;
+    background-color:#9792E4;
     /* DEBUG */
     min-height: 600px;
     
 }
 
-/* section fot DEBUG */
+/* section for DEBUG */
 section{
     /* DEBUG */
     min-height: 600px;
@@ -31,14 +42,104 @@ footer{
     min-height: 140px;
 }
 
+
+
+
+
 /* HEADER MENU */
 header nav{
-    background-color: #366ef0;
+    background-color: #0084FD;
     height: 70px;
+}
+
+/* container with a flex */
+header nav .container{
+    height: 100%;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header main{
     /* DEBUG */
     border: 2px solid black;
     min-height: 600px;
+}
+
+/* nav settings of header */
+#nav-bar{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+/* CARD FOR MAIN */
+
+/* cards general */
+.card{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    /* DEBUG */
+    min-height: 200px;
+    
+}
+
+.card.wht{
+    background-color: #fff;
+}
+
+.card:first-child{
+    /* DEBUG; */
+    min-height: 400px;
+}
+
+/* margin in card */
+.card .container h3,p,button{
+    margin:20px
+}
+
+/* BIG CARD SETTINGS */
+.card h3{
+    color: #366ef0;
+}
+
+.card.wht h3{
+    color: black;
+}
+
+/* immage of card */
+.card .immage img{
+    width: 100%;
+}
+
+/* button */
+button{
+    width: 60%;
+    height: 40px;
+    background-color: #0084FD;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+#round-button{
+    border-radius: 100%;
+    background-color: #9792E4;
+    width: 30px;
+    text-align: center;
+}
+
+
+
+/* MAIN MENU */
+.bk-ground-violet img{
+    max-width: 100%;
+}
+
+.violet-titol{
+    color: #9792E4;
 }

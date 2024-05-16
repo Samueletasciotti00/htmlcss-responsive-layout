@@ -1,0 +1,27 @@
+/* MEDIA FOR TABLET VIEW */
+
+@media all and (min-width:481px) {
+    
+    /* WIDTH OF CARDS */
+    .card:first-child{
+        width: 65%;
+    }
+
+    .card{
+        width: 30%;
+    }
+
+    /* FLEX FOR CONTAINER */
+    main .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+/* MEDIA FOR DESKTOP VIEW*/
+@media all and (min-width:1024px) {
+    .container{
+        width: 80%;
+    }
+}
