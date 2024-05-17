@@ -5,6 +5,11 @@
     color: black;
 }
 
+/* White card*/
+.card.wht{
+    width: 45%;
+}
+
 /* Font sizeing  H3 (WE ARE COMMITTED EXPERT PARTNERS*/
 h3.violet-txt{
     font-size: 30px;
@@ -34,6 +39,8 @@ h3.violet-txt{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
 
 /* Margin on the container cards */
 .container h3,p{
@@ -142,8 +149,12 @@ button{
 
 /* Round immage in violet section */
 .card.viol img{
-    width: 50%;
     border-radius: 100%;
+}
+
+/* size white card for mobile view */
+.blue-flex .card.wht{
+    width: 100%;
 }
 
 /* Background for card [White] */

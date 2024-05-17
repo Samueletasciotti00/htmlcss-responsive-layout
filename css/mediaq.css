@@ -3,7 +3,7 @@
 @media all and (min-width:768px) {
     
     /* WIDTH OF CARDS */
-    .card:first-child{
+    #big-blue{
         width: 65%;
     }
 
@@ -16,6 +16,14 @@
         width: 30%;
     }
 
+    .card.viol{
+        width: 100%;
+        text-align: left;
+        /* flex */
+        display: flex;
+        justify-content: space-between;
+    }
+
     /* GENERAL CONTAINER */
     .container{
         width: 90%;
@@ -23,12 +31,42 @@
     }
 
     /* FLEX FOR CONTAINER */
-    main .container{
+    .blue-flex{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
+    .about-flex{
+        display: flex;
+    }
+
+    /* White card sizeing */
+    .blue-flex .card.wht{
+        width: 45%;
+    }
+
+    .container.left h3{
+        font-size: 60px;
+    }
+
+    /* IMMAGE AND CARD SETTINGS UNDER [STRATEGIC PLANNING] */
+    .card.wht.tx-middle{
+        width: 100%;
+    }
+    /* titol */
+    .card.wht.tx-middle h3{
+        font-size: 20px;
+    }
 }
+
+
+
+
+
+
+
+
 
 /* MEDIA FOR DESKTOP VIEW*/
 @media all and (min-width:1024px) {
