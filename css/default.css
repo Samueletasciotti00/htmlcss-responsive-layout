@@ -1,0 +1,46 @@
+/* DEFAULT SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PT Sans;
+}
+
+/* NAV BAR SETTINGS */
+header nav{
+    background-color: #0084FD;
+    height: 70px;
+}
+
+/* COLOR FOR TEXT/HEADING */
+.violet-txt{
+    color: #9792E4;
+}
+
+.ocra-txt{
+    color: #FDC15F;
+}
+
+.white-txt{
+    color: #fff;
+}
+
+.blue-txt{
+    color: #0084FD;
+}
+
+/* Align text class */
+.tx-middle{
+    text-align: center;
+}
+
+
+/* IMMAGE SIZE SETTINGS */
+img{
+    width: 100%;
+}
+
+/* Background for violet cards */
+.card.viol{
+    background-color: #9792E4;
+}

@@ -1,14 +1,25 @@
 /* MEDIA FOR TABLET VIEW */
 
-@media all and (min-width:481px) {
+@media all and (min-width:768px) {
     
     /* WIDTH OF CARDS */
     .card:first-child{
         width: 65%;
     }
 
+    /* Settings for Phone immage */
+    .card:first-child img{
+        width: 50%;
+    }
+
     .card{
         width: 30%;
+    }
+
+    /* GENERAL CONTAINER */
+    .container{
+        width: 90%;
+        margin: 0 auto;
     }
 
     /* FLEX FOR CONTAINER */
