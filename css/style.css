@@ -6,22 +6,62 @@
     font-family: PT Sans;
 }
 
+/* COLOR FOR TEXT/HEADING */
+.violet-txt{
+    color: #9792E4;
+}
+
+.container.violet-txt p{
+    color: black;
+}
+
+.white-txt{
+    color: #fff;
+}
+
+.blue-txt{
+    color: #0084FD;
+}
+
 .tx-middle{
     text-align: center;
 }
 
 /* Default container */
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
+.container.left{
+    text-align: left;
+    padding-top: 20px;
+}
+
+.container.left p{
+    margin-bottom: 20px ;
+    
+}
+
+.container.left .immage{
+    margin-top: 20px;
+}
+
+.container.left h3{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container h3,p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 /* violet section */
 .bk-ground-violet{
-    background-color:#9792E4;
-    /* DEBUG */
-    min-height: 600px;
-    
+    background-color:#9792E4;    
 }
 
 /* section for DEBUG */
@@ -30,18 +70,6 @@ section{
     min-height: 600px;
     border: 1px solid black;
 }
-
-
-
-
-
-/* FOOTER */
-footer{
-    background-color: rgb(32, 31, 31);
-    /* DEBUG */
-    min-height: 140px;
-}
-
 
 
 
@@ -82,7 +110,7 @@ header main{
     margin-bottom: 10px;
     margin-top: 10px;
     background-color: #B5DDFF;
-    border-radius: 20px;
+    border-radius: 40px;
     /* DEBUG */
     min-height: 200px;
     
@@ -94,7 +122,6 @@ header main{
 
 .card.viol{
     background-color: #9792E4;
-    color: #fff;
 }
 
 
@@ -106,27 +133,29 @@ header main{
 }
 
 /* margin in card */
-.card .container h3,p,button{
-    margin:20px
-}
-
-/* BIG CARD SETTINGS */
 .card h3{
-    color: #366ef0;
+    margin-bottom: 10%;
 }
 
-.card.wht h3{
-    color: black;
-}
-
-/* immage of card */
+/* immage sets*/
 .card .immage img{
+    width: 100%;
+}
+
+.round-img{
+   border-radius: 100%;
+   width: 50%;
+}
+
+    
+
+.container img{
     width: 100%;
 }
 
 /* button */
 button{
-    width: 60%;
+    width: 170px;
     height: 40px;
     background-color: #0084FD;
     color: #fff;
@@ -137,8 +166,13 @@ button{
 #round-button{
     border-radius: 100%;
     background-color: #9792E4;
-    width: 30px;
-    text-align: center;
+    padding-top: 15px;
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+}
+#round-button i{
+    font-size: 20px;
 }
 
 
@@ -153,6 +187,10 @@ button{
     border-radius: 100%;
 }
 
-.violet-titol{
-    color: #9792E4;
+/* FOOTER */
+footer{
+    background-color: rgb(32, 31, 31);
+    /* DEBUG */
+    min-height: 140px;
 }
+
