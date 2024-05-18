@@ -37,9 +37,7 @@
         justify-content: space-between;
     }
 
-    .about-flex{
-        display: flex;
-    }
+    
 
     /* White card sizeing */
     .blue-flex .card.wht{
@@ -57,6 +55,40 @@
     /* titol */
     .card.wht.tx-middle h3{
         font-size: 20px;
+    }
+
+
+    /* SECTION        ABOUT  US    ------    */
+
+    /* FLEX FOR ABOUT US */
+    .about-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* ABOUT US SETTINGS */
+    .media-vw{
+        width: 45%;
+        margin-top: 5%;
+    }
+
+    /* h1 in MEDIA-VW TITOL ABOUT US */
+    .media-vw h1{
+        color: #9792E4;
+    }
+
+    /* h3 in MEDIA-VW LEFT SIZING */
+    .media-vw h3{
+        font-size: 25px;
+    }
+
+    .media-vw img,h3,button{
+        margin-left: 20%;
+    }    
+
+    /* About us TITOL */
+    .about-flex:first-child h1{
+        font-size: 40px;
     }
 }
 
