@@ -10,16 +10,18 @@
     width: 45%;
 }
 
+/* WHITE SINGLE CARD */
+.card.wht.tx-middle{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
 /* Font sizeing  H3 (WE ARE COMMITTED EXPERT PARTNERS*/
 h3.violet-txt{
     font-size: 30px;
 }
 
-/* Default container */
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
+
 
 /* Class for aling text to left and padding */
 .container.left{
@@ -152,8 +154,13 @@ button{
     border-radius: 100%;
 }
 
+
 /* size white card for mobile view */
 .blue-flex .card.wht{
+    width: 100%;
+}
+
+.container.left img{
     width: 100%;
 }
 

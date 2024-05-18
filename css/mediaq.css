@@ -8,7 +8,7 @@
     }
 
     /* Settings for Phone immage */
-    .card:first-child img{
+    #phone{
         width: 50%;
     }
 
@@ -44,7 +44,7 @@
         width: 45%;
     }
 
-    .container.left h3{
+    #str-plan h3{
         font-size: 60px;
     }
 
@@ -82,9 +82,7 @@
         font-size: 25px;
     }
 
-    .media-vw img,h3,button{
-        margin-left: 20%;
-    }    
+    
 
     /* About us TITOL */
     .about-flex:first-child h1{
@@ -102,7 +100,26 @@
 
 /* MEDIA FOR DESKTOP VIEW*/
 @media all and (min-width:1024px) {
+    /* GENERAL CONTAINER */
     .container{
         width: 80%;
     }
-}
+
+    /* BIG BLUE ITEM FLEX POSITION */
+    #container-blue{
+        display: flex;
+    }
+
+    /* PHONE IMMAGE WIDTH */
+    #phone{
+        width: 100%;
+    }
+
+    /* STRATEGIC PLAN FLEX */
+    #str-plan{
+        display: flex;
+    }
+    
+    #str-plan h3{
+        font-size: 20px
+    }

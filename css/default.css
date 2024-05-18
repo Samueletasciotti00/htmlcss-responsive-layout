@@ -6,6 +6,12 @@
     font-family: PT Sans;
 }
 
+/* Default container */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* NAV BAR SETTINGS */
 header nav{
     background-color: #0084FD;
