@@ -152,6 +152,7 @@ button{
 /* Round immage in violet section */
 .card.viol img{
     border-radius: 100%;
+    padding: 20px;
 }
 
 
@@ -196,4 +197,10 @@ footer{
 
 .media-vw{
     padding-bottom: 40px;
+}
+
+#pos-id{
+    translate: 300%;
+    position: absolute;
+    font-size: 55px;
 }
