@@ -156,6 +156,10 @@ button{
 
 
 /* size white card for mobile view */
+.blue-flex{
+    padding-bottom: 40px;
+}
+
 .blue-flex .card.wht{
     width: 100%;
 }
@@ -185,3 +189,11 @@ footer{
 
 /* ------------- */
 
+.container.tx-middle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.media-vw{
+    padding-bottom: 40px;
+}

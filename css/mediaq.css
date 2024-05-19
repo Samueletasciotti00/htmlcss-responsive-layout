@@ -78,6 +78,7 @@
     .media-vw{
         width: 45%;
         margin-top: 5%;
+        
     }
 
     /* h1 in MEDIA-VW TITOL ABOUT US */
@@ -101,7 +102,7 @@
 
 
 /* MEDIA FOR DESKTOP VIEW*/
-@media all and (min-width:1024px){
+@media all and (min-width:1024px) {
 
     /* HIDDEN BURGER MENU */
     #nav-bar{
@@ -132,6 +133,18 @@
     /* GENERAL CONTAINER */
     .container{
         width: 80%;
+        margin-top: 50px;
+    }
+
+    /* Margin for testimonials titol */
+    #spazio{
+        margin-top: 50px;
+    }
+
+    /* Benefits of working whit us */
+    #benef-titol{
+        font-size: 35px;
+        padding: 20px;
     }
 
     /* BIG BLUE ITEM FLEX POSITION */
@@ -157,7 +170,18 @@
     /* NUMBERED CARD SIZE */
     .blue-flex .card.wht{
         width: 30%;
+        padding: 20px;
     }
+
+    .blue-flex .card.wht h1{
+        font-size: 50px;
+    }
+
+    .blue-flex .card.wht button{
+        width: 70%;
+    }
+
+
 }    
 
 
