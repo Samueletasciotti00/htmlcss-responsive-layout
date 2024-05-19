@@ -12,6 +12,14 @@
     margin: 0 auto;
 }
 
+.container2{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 /* NAV BAR SETTINGS */
 header nav{
     background-color: #0084FD;
