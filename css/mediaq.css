@@ -1,3 +1,11 @@
+/* FORCED TO REMOVE */
+@media all and (max-width: 1023px) {
+    #dx-list{
+        display: none;
+    }
+}
+
+
 /* MEDIA FOR TABLET VIEW */
 
 @media all and (min-width:768px) {
@@ -92,14 +100,35 @@
 
 
 
-
-
-
-
-
-
 /* MEDIA FOR DESKTOP VIEW*/
-@media all and (min-width:1024px) {
+@media all and (min-width:1024px){
+
+    /* HIDDEN BURGER MENU */
+    #nav-bar{
+        display: none;
+    }
+    /* show list nav */
+    #dx-list{
+        width: 60%;
+    }
+
+    #list-nav{
+        list-style: none;
+        color: #fff;
+        /* flex */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #list-nav :nth-child(5){
+        color: black;
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 20px;
+    } 
+
     /* GENERAL CONTAINER */
     .container{
         width: 80%;
@@ -118,8 +147,31 @@
     /* STRATEGIC PLAN FLEX */
     #str-plan{
         display: flex;
+        align-items: baseline;
     }
     
     #str-plan h3{
         font-size: 20px
     }
+
+    /* NUMBERED CARD SIZE */
+    .blue-flex .card.wht{
+        width: 30%;
+    }
+}    
+
+
+/* TO DO LIST */
+
+/* 
+° Sistemare i margini e ipadding
+
+° Sisteare le imperfezioni delle immagini 
+
+° Completare il footer
+
+° Sistemare il colore a qualche testo 
+
+° Riprodurre la LIST visibile solamente nella schermata desktop
+
+*/
